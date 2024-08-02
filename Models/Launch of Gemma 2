@@ -1,0 +1,18 @@
+Google has introduced Gemma 2 2B, a lightweight AI model with only 2 billion parameters, which surpasses much larger models such as GPT-3.5 and Mixtral 8x7B on key benchmarks.
+
+Details:
+1. Trained on  2 trillion tokens
+2. They are text-to-text, decoder-only large language models, built from the same technology used to create Gemini Models.
+3. SheildGemma : ShieldGemma is a series of safety classifiers designed to detect harmful content in model inputs and outputs. It specifically targets hate speech, harassment, sexually explicit content, and dangerous content. The ShieldGemma models are open-source and intended to foster collaboration and transparency within the AI development community. They enhance the company's existing suite of safety classifiers as part of the Responsible AI Toolkit.
+4. Gemma Scope : Gemma Scope offers enhanced transparency into the decision-making processes of Gemma 2 models, allowing researchers to understand how Gemma 2 identifies patterns, processes information, and makes predictions.
+
+"These releases represent our ongoing commitment to providing the AI community with the tools and resources needed to build a future where AI benefits everyone. We believe that open access, transparency, and collaboration are essential for developing safe and beneficial AI." said by Google in their blog post.
+
+
+
+
+
+
+References : 
+1.https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/?utm_source=www.therundown.ai&utm_medium=newsletter&utm_campaign=google-s-tiny-ai-beats-gpt-3-5
+2.https://ai.google.dev/gemma/docs/shieldgemma/model_card
