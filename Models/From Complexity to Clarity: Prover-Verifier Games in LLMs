@@ -46,3 +46,5 @@ It's important to note that checkability and legibility are often correlated. Ou
 However, there might be cases where an output is verifiable but not necessarily legible to a human. Therefore, both aspects need to be considered during training.
 
 This comprehensive approach aims to make LLM outputs more understandable and trustworthy, thus potentially aiding in the alignment of highly capable models with human values and expectations.
+
+Link to the paper - https://arxiv.org/abs/2407.13692
