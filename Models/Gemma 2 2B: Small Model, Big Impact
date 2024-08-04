@@ -2,14 +2,26 @@ Google has introduced Gemma 2 2B, a lightweight AI model with only 2 billion par
 
 •  Trained on  2 trillion tokens
 •  Text-to-text, decoder-only large language models, built from the same technology used to create Gemini Models.
-•  SheildGemma : ShieldGemma is a series of safety classifiers designed to detect harmful content in model inputs and outputs. It specifically targets hate speech, harassment, sexually explicit content, and dangerous content. The ShieldGemma models are open-source and intended to foster collaboration and transparency within the AI development community. They enhance the company's existing suite of safety classifiers as part of the Responsible AI Toolkit.
+•  SheildGemma : ShieldGemma is a series of safety classifiers designed to detect harmful content in model inputs and outputs.IThe ShieldGemma models are open-source and intended to foster collaboration and transparency within the AI development community. They enhance the company's existing suite of safety classifiers as part of the Responsible AI Toolkit.
 •  Gemma Scope : provides better transparency into how the model makes decisions. It helps researchers understand the model's pattern identification, information processing, and prediction mechanisms.
 
 
+SheildGemma :
+Helps to filter the inputs and outputs of LLM's.
+Primarily focuses on detecting and filtering harmful content across four key categories:
+-Sexually explicit content
+-Dangerous content
+-Hate speech
+-Harassment
+
+
+
+
 "These releases represent our ongoing commitment to providing the AI community with the tools and resources needed to build a future where AI benefits everyone. We believe that open access, transparency, and collaboration are essential for developing safe and beneficial AI." said by Google in their blog post.
-The breakthrough of Gemma 2 2B has significant implications for the future of AI. It enables powerful on-device AI capabilities on resource-limited devices, making advanced technology more accessible to a broader range of users and developers. By facilitating local processing, it enhances privacy and security by minimizing data transmission. Additionally, Gemma 2 2B reduces infrastructure costs for deploying and maintaining AI applications, supporting real-time tasks that are crucial for interactive and autonomous systems. This model sets new standards for lightweight AI, driving further innovation and encouraging broader experimentation in AI integration across various products and services. As a result, Google strengthens its leadership in compact and efficient AI models, ultimately transforming how AI is utilized across different industries.
-
-
+The breakthrough of Gemma 2 2B has significant implications for the future of AI. It enables powerful on-device AI capabilities on resource-limited devices, making advanced technology more accessible to a broader range of users and developers.
+By facilitating local processing, it enhances privacy and security by minimizing data transmission. 
+Additionally, Gemma 2 2B reduces infrastructure costs for deploying and maintaining AI applications, supporting real-time tasks that are crucial for interactive and autonomous systems. 
+This model sets new standards for lightweight AI, driving further innovation and encouraging broader experimentation in AI integration across various products and services.
 
 
 
