@@ -7,7 +7,7 @@ At the core of Prover-Verifier Games lies a collaborative process between two AI
 The Prover - generates solutions to problems. 
 The Verifier - assesses the Prover’s work for correctness and clarity.
 
-In laymen terms : 
+In layman terms : 
 Imagine a really smart computer. This computer is trying to be helpful and give you answers to questions. But sometimes, its answers are hard to understand.
 So, we create another computer that's good at checking if the first computer's answers make sense.
 
