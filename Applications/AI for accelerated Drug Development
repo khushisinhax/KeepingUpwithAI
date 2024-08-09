@@ -1,0 +1,37 @@
+Artificial intelligence is proving instrumental in identifying molecules that could be developed into new drugs for mental health disorders. 
+By predicting the three-dimensional structures of crucial receptors, AI accelerates the process of discovering and developing potential treatments.
+This breakthrough is highlighted in a recent study from Uppsala University published in Science Advances.
+
+In drug development, experimental methods are typically employed to determine the three-dimensional structures of target proteins and to understand how molecules interact with them. 
+This structural information is crucial for designing drug molecules effectively. 
+However, the process of determining these structures can be time-consuming and challenging, making it impractical for widespread use.
+
+Recent advancements in AI have significantly improved the accuracy of protein structure predictions. 
+In a study conducted by researchers at Uppsala University, Alphafold 2 from DeepMind was utilized to model the previously unknown three-dimensional structure of the TAAR1 receptor, a key protein of interest for developing mental health disorder treatments.
+Drug molecules that activate TAAR1 have shown promising potential in treating conditions like schizophrenia and depression.
+
+The researchers then harnessed the power of supercomputers to screen millions of molecules in chemical libraries, identifying those that best fit the AI-generated model. 
+The molecules predicted to bind to the receptor were subsequently tested in experiments by collaborators at Karolinska Institutet. 
+Remarkably, a significant number of these molecules successfully activated TAAR1, with one of the most potent compounds demonstrating promising effects in animal studies.
+
+"The accuracy of the structures generated with AI was astonishing—I couldn't believe it. 
+The results also show that modeling with AI is significantly better than traditional methods. 
+We can now use the same strategy for receptors that we previously could only dream of working with," explains Jens Carlsson, who led Uppsala University's part of the study.
+
+About AlphaFold 2:
+
+AlphaFold 2 is an advanced AI model developed by DeepMind, designed to predict the three-dimensional structures of proteins with remarkable accuracy.
+It represents a significant leap in the field of computational biology.It uses a deep learning architecture that incorporates multiple neural networks, attention mechanisms, 
+and iterative refinement to predict protein structures. As per an article by EMBL's European Bioinformatics Institute - ' AlphaFold2 uses a multiple sequence alignment (MSA) combining the sequences of multiple related proteins. 
+The software generates a set of pair representations modelling the relationships between every pair of amino acid residues. The software uses the MSA to predict all the pair representations and thus the 3D structure of the protein.'
+
+Nonetheless,this study at Uppsala University underscores the transformative potential of AI in medicine, paving the way for more efficient and effective treatment development. 
+
+
+References:
+1.https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/a-high-level-overview/
+2.https://www.scilifelab.se/news/artificial-intelligence-accelerates-drug-design-astonishingly-high-accuracy/
+3.https://www.nature.com/articles/s41392-023-01381-z#:~:text=AlphaFold2%20(AF2)%20is%20an%20artificial,sequences%20with%20atomic%2Dlevel%20accuracy.
+
+
+
