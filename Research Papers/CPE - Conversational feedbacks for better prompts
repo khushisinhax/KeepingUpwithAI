@@ -1,0 +1,41 @@
+To fully leverage the potential of large language models (LLMs), it's crucial to design effective prompts.
+Researchers at IBM believe traditional prompt engineering often requires significant expertise and trial-and-error to produce optimal results. 
+
+" It requires a deep understanding
+of how LLMs interpret and respond to instructions,
+as well as to anticipate how slight changes in phrasing
+or context might affect the output, making it a
+complex task even for experienced practitioners. " -- Conversational Prompt Engineering, Aug 2024, https://arxiv.org/abs/2408.04560
+
+Recent works on automating PE, though offer insight on managing this problem, require access to labelled data which can be difficult to obtain for certain tasks.
+Thus the Researchers at IBM propose - Conversational Prompt Engineering (CPE) to help users create personalized prompts without the need of labelled data.
+This approach involves an interactive process where users describe their desired output, and the AI model assists in refining the prompt based on this feedback. 
+
+
+Design:
+1. The user - interacts with the cpe via UI.
+2. LLM Model -processes the user's requirements and carries out the necessary steps, such as instruction refinement and output enhancement.The model is directed to respond at each step using predefined API calls.
+3. System - manages the interaction between the user and LLM model.
+
+How it works:
+
+1. User selects the target model and provides an unlabeled data to the model.
+2. CPE engages with the user on the task requirements & expected output, and based on the information provided by the user, it creates an instruction.
+Instruction refers to the description of the task and required output.
+3. The instruction is revised based on user feedback and used as prompt to the target model to generate a corresponding output.
+4. The output can be further refined if the user requires modification, else the chat ends once the instructions and prompts are approved by the user.
+
+Through this iterative process, a personalized prompt is created. 
+The final result is a few-shot prompt, where the outputs approved by the user serve as few-shot examples.
+
+As stated in the paper:
+"This capability of CPE can save users substantial costs when performing repetitive tasks on large volumes of text, as it significantly reduces the number of tokens in the prompt."
+
+The effectiveness of Conversational Prompt Engineering (CPE) hinges on the quality of its user interface and the system's ability to accurately interpret and incorporate user feedback.
+Ensuring that this approach remains scalable for large datasets is also crucial. Overall, CPE shows significant promise in democratizing prompt engineering, making it more accessible and efficient, 
+especially for users without specialized expertise , and in areas where traditional prompt engineering might be cumbersome.
+
+
+
+
+
